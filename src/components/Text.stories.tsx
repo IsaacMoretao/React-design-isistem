@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react';
-import { Text } from './Text';
+import { Text, TextProps } from './Text';
 
 export default {
   title: 'Components/Text',
@@ -8,19 +8,27 @@ export default {
     children: 'Lorem ipsum.',
     size: 'sm'
   },
+  argTypes: {
+    size: {
+      options: ['sm', 'md', 'lg'],
+      control: {
+        type: 'inline-radio'
+      }
+    }
+  }
 } as Meta
 
-export const Default: StoryObj  = {
+export const Default: StoryObj<TextProps>  = {
 
 }
 
-export const Small: StoryObj  = {
+export const Small: StoryObj<TextProps>  = {
   args: {
     size: 'sm'
   }
 }
 
-export const Large: StoryObj  = {
+export const Large: StoryObj<TextProps> = {
   args: {
     size: 'lg'
   }
