@@ -3,7 +3,7 @@
   Portifólio
 </h1>
 
-<img src='./src/Assets/Site.png' />
+<img src='./src/Assets/Web.png' />
 
 <p align="center">
   This is a study project, which was put together by rocketseat,made by me, <br />
@@ -32,15 +32,31 @@ Requirements to run the project
 
 
 <p> 
- <b>in terminal:</b> <br/>
+ <b>In terminal:</b> <br/>
 
-  1º: ```bash npm install --save --legacy-peer-deps ``` <br/>
+  1º: Installing core dependencies
+  ```bash
+    npm install --save --legacy-peer-deps
+  ```
+  <br/>
 
-  2º: ```bash npm i ``` <br/>
+  2º: Installing secondary settings and dependencies
+  ```bash npm i
+    bash npm i
+  ```
+  <br/>
 
-  3º: ```bash npm run dev ``` <br/>
+  3º: Opening web interface
+   ```bash
+    npm run dev
+   ```
+   <br/>
 
-  4º: ```bash npm run storybook ``` //`Components from project`<br/>
+  4º: Opening components with Storybook
+  ```bash
+    npm run storybook
+  ```
+  <br/>
 
 </p>
 

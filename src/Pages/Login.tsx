@@ -1,11 +1,12 @@
 import { Envelope, Keyhole } from "phosphor-react";
 import { Button } from "../components/Button";
 import { Checkbox } from "../components/Checkbox";
-import { Heading } from "../components/Heading";
 
+import { Heading } from "../components/Heading";
 import { TextInput } from "../components/TextInput";
 import { Text } from "../components/Text";
-import { Logo } from "../Logo";
+
+import { Logo } from "../Assets/Logo";
 import { FormEvent, useState } from "react";
 import axios from "axios";
 
