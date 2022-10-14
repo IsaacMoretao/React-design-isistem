@@ -1,6 +1,6 @@
 
 ﻿<h1 align="center">
-  Portifólio
+  Design sistem
 </h1>
 
 <img src='./src/Assets/Web.png' />
