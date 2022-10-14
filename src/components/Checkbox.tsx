@@ -7,7 +7,7 @@ export function Checkbox( props: CheckboxProps ) {
 
   return(
     <CheckboxPrimitive.Root
-      className="w-6 h-6 p-[2px] rounded" {...props}
+      className="w-6 h-6 p-[2px] rounded bg-gray-800" {...props}
     >
       <CheckboxPrimitive.Indicator asChild>
         <Check size={20} weight="bold" className="text-cyan-500"/>
