@@ -6,7 +6,7 @@
 <img src='./src/Assets/Web.png' />
 
 <p align="center">
-  This is a study project, which was put together by rocketseat,made by me, <br />
+  This is a study project, which was put together by rocketseat, made by me, <br />
   which uses tailwindcss, storybook, vite, typescript and more, to see the result <a href='' target='_blank'>Click here</a>
 </p>
 
