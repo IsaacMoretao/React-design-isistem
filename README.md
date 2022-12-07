@@ -3,7 +3,7 @@
   Design sistem
 </h1>
 
-<img src='./src/Assets/Web.png' />
+<img src='./src/Assets/' />
 
 <p align="center">
   This is a study project, which was put together by rocketseat, made by me, <br />
